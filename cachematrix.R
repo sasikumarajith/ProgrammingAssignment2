@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## makeCacheMatrix function creates a list of functions to set the matrix variable, get the matrix variable, and also set/get its inverse and
+## cacheSolve function uses the function solve to get the inverse of the inverstible square matrix if an inverse has not already been calculated
 
-## Write a short comment describing this function
+## Function takes a matrix as an input.Return a list of functions to set /get the variable or set / get the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
 
@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## cacheSolve function calcualtes inverse of the square invertible matrix if one is already not present.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
